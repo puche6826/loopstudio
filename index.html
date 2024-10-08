@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav id="nav-top">
+      <h1 class="logo"> <img class="logo-img" src="./images/logo.svg" alt=""></h1>
+     <ul class="ul-1">
+<li class="l-1">About</li> 
+<li class="l-1">Careers</li> 
+<li class="l-1">Events</li> 
+<li class="l-1">Products</li>
+<li class="l-1">Support</li>
+<li class="menu" onclick=showSidebar()>
+  <svg fill="white"   xmlns="http://www.w3.org/2000/svg" height="30px" color="white" viewBox="0 -960 960 960" width="35px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+  </svg>
+</li>
+     </ul> 
+     <ul class="sidebar">
+      <li class="side-head" onclick=hideSidebar()><img src="./images/logo.svg" alt=""><svg  fill="white" xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+      <li class="sidebar-li">ABOUT</li> 
+      <li class="sidebar-li">CAREERS</li> 
+      <li class="sidebar-li">EVENTS</li> 
+      <li class="sidebar-li">PRODUCTS</li>
+      <li class="sidebar-li">SUPPORT</li>
+        </ul> 
+    </nav>
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='none'
+      }
+    </script>
+   
+    <p>IMMERSIVE EXPERIENCES THAT DELIVER</p>
+  </header>
+  <section class="section-2">
+    <div class="inter-img">
+      <img class="inter-img" src="./images/desktop/image-interactive.jpg " alt=""> 
+    </div>
+  <div class="note">
+    
+   <h1>THE LEADER IN INTERATIVE VR</h1>
+      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+        projects for some of the best companies around the globe. Our award-winning 
+        creations have transformed businesses through digital experiences that bind 
+        to their brand.</p>
+  
+  </div>
+  </section>
+  <section class="section-3">
+    <div><p>OUR CREATIONS</p></div>
+    <div><button>SEE All</button>
+    </div>
+  </section>
+  <section class="section-4">
+    <div class="content-box">
+      <div class="box-1">DEEP EARTH</div>
+      <div class="box-2">NIGHT ARCADE</div>
+      <div class="box-3">SOCCER TEAM VR</div>
+      <div class="box-4">THE GRID</div>
+      <div class="box-5">FROM UP ABOVE VR</div>
+      <div class="box-6">POCKET BOREALIS</div>
+      <div class="box-7">THE CUROISTY</div>
+      <div class="box-8">MAKE IT FISHEYE</div>
+    </div>
+    
+    
+    
+    
+  </section>
+  <footer>
+    <nav class="nav-2">
+      <img class="btm-logo"  src="./images/logo.svg" alt="">
+      <ul class="ul-2">
+        <li>About</li> 
+        <li>Careers</li> 
+        <li>Events</li> 
+        <li>Products</li> 
+        <li>Support</li>
+      </ul>
+   
+    </nav>
+    <nav class="nav-3"> 
+       <div class="social-logo">
+      <img class="soc-img" src="./images/icon-facebook.svg" alt="">
+    <img class="soc-img" src="./images/icon-twitter.svg" alt="">
+    <img class="soc-img" src="./images/icon-pinterest.svg" alt="">
+    <img class="soc-img" src="./images/icon-instagram.svg" alt="">
+    </div>
+      <div class="close"> © 2021 Loopstudios. All rights reserved.</div>
+
+    </nav>
+     
+  </footer>
+  
+</body>
+</html>
